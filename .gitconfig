@@ -1,0 +1,25 @@
+[user]
+email = flyingpickles101@gmail.com
+name = Felix Lee
+signingkey = /home/felix/.ssh/id_ed25519.pub
+
+[credential]
+helper = store
+
+[gpg]
+format = ssh
+
+[commit]
+gpgsign = true
+
+[init]
+defaultBranch = main
+
+[pull]
+rebase = true
+
+[rebase]
+autoStash = true
+
+[push]
+autoSetupRemote = true
